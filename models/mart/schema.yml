@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: mart
+    database: postgres
+    schema: dbt
+    tables:
+      - name: f_weekly_order_status

@@ -15,3 +15,27 @@ jaffle_shop:
       dbname: postgres
       schema: dbt
   target: dev  
+jaffle_shop_dbtvault:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: [1 or more]
+      host: [host]
+      port: [port]
+      user: [dev_username]
+      pass: [dev_password]
+      dbname: [dbname]
+      schema: [dev_schema]
+
+    prod:
+      type: postgres
+      threads: [1 or more]
+      host: [host]
+      port: [port]
+      user: [prod_username]
+      pass: [prod_password]
+      dbname: [dbname]
+      schema: [prod_schema]
+
+  target: dev

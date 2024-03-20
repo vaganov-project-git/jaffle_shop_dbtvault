@@ -42,3 +42,11 @@
     dbt clean # clean temp files
     dbt deps # install dependencies (modules)
     ```
+
+
+## Homework
+
+1. Build a data mart over Data Vault.
+
+Dynamics of changes in the number of orders by calendar week and order status.
+
