@@ -6,4 +6,4 @@ sources:
     schema: dbt
     tables:
       - name: as_of_date
-      - name: v_pit_customer_details
+      - name: pit_customer_details
