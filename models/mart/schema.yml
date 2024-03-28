@@ -6,3 +6,4 @@ sources:
     schema: dbt
     tables:
       - name: f_weekly_order_status
+      - name: d_pit_customer_details
