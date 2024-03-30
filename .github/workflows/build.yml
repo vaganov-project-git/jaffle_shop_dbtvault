@@ -36,5 +36,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/dbt/data_vault_lab:ci
+          tags: ghcr.io/a-poliakov/jaffle_shop_dbtvault:ci
           labels: ${{ steps.meta.outputs.labels }}
