@@ -20,7 +20,7 @@ jobs:
           - 9000:9000
           - 8123:8123
     container:
-      image: ghcr.io/dbt/data_vault_lab:ci
+      image: ghcr.io/a-poliakov/jaffle_shop_dbtvault:ci
     steps:
       - uses: actions/checkout@v3
       - run: dbt --version
