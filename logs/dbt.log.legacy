@@ -25,3 +25,8 @@
 2024-03-22 17:49:29.570687 (Thread-1): invalid escape sequence '\{'
 2024-03-28 17:34:46.182724 (Thread-1): invalid escape sequence '\{'
 2024-03-28 17:38:27.952405 (Thread-1): invalid escape sequence '\{'
+2024-12-18 20:38:47.505997 (MainThread): invalid escape sequence '\{'
+2024-12-18 20:38:48.336041 (MainThread): invalid escape sequence '\{'
+2024-12-18 20:38:48.882863 (MainThread): invalid escape sequence '\{'
+2024-12-19 17:27:23.441749 (Thread-1): invalid escape sequence '\{'
+2024-12-20 14:57:18.376558 (Thread-1): invalid escape sequence '\{'
